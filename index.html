@@ -1,0 +1,512 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href="./style.css" />
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Arabic:wght@100..900&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Font Awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+            integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
+        <title>Landing Page</title>
+    </head>
+
+    <body>
+        <header>
+            <!-- ===== HERO BACKGROUND ===== -->
+            <div class="stars" aria-hidden="true"></div>
+
+            <div class="grid-floor" aria-hidden="true">
+                <div class="orb" aria-hidden="true">
+                    <div class="orb-ring ring-one"></div>
+                    <div class="orb-ring ring-two"></div>
+                    <div class="orb-ring ring-three"></div>
+                    <div class="orb-core"></div>
+                </div>
+            </div>
+
+            <!-- ===== NAVBAR ===== -->
+            <nav class="navbar" dir="ltr">
+                <a class="logo" href="#hero" aria-label="main page">
+                    <h1>REZ<span>A</span></h1>
+                </a>
+
+                <div class="nav-links">
+                    <a href="#contact">تماس با ما</a>
+                    <a
+                        href="https://rezawebdeveloper01.github.io/Reza-Portfolio/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        درباره من
+                    </a>
+                    <a href="#services">خدمات</a>
+                    <a href="#projects">محصولات</a>
+                </div>
+
+                <button class="start-btn" type="button">
+                    <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+                    <span>شروع کنید</span>
+                </button>
+            </nav>
+
+            <!-- ===== HERO CONTENT ===== -->
+            <div class="hero-content" id="hero">
+                <span class="hero-badge">
+                    <i class="fa-solid fa-circle" aria-hidden="true"></i>
+                    آینده همین حالاست
+                </span>
+
+                <h1>
+                    فردا را <br />
+                    امروز <span>طراحی</span> کن.
+                </h1>
+
+                <p>
+                    ما تجربه‌های دیجیتال متفاوتی می‌سازیم که برند شما را
+                    <br />
+                    به سطح فراتر از انتظار می‌رساند.
+                </p>
+
+                <div class="button-wrapper">
+                    <button type="button" id="start">
+                        <span>شروع کنید</span>
+                        <i
+                            class="fa-solid fa-chevron-left"
+                            aria-hidden="true"
+                        ></i>
+                    </button>
+
+                    <button type="button" id="projects-btn">
+                        <span>مشاهده پروژه‌ها</span>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <!-- ===== STATS ===== -->
+            <section class="section stats" id="stats">
+                <div class="section-header">
+                    <span>آنچه ساخته‌ایم</span>
+
+                    <h2>ایده‌های بزرگ، فقط ایده نمی‌مانند.</h2>
+
+                    <p>
+                        ما با ترکیب خلاقیت، تکنولوژی و استراتژی، محصولات
+                        می‌سازیم
+                        <br />
+                        که نتیجه رشد، اعتماد و تجربه‌ای ماندگار است.
+                    </p>
+                </div>
+
+                <div class="cards stats-cards">
+                    <article class="card stats-card">
+                        <div class="inner-card">
+                            <h3>4.9/5</h3>
+                            <i
+                                class="fa-regular fa-star"
+                                aria-hidden="true"
+                            ></i>
+                            <span>امتیاز کاربران</span>
+                        </div>
+                        <p>میانگین امتیاز ما از نظر مشتریانمان</p>
+                    </article>
+
+                    <article class="card stats-card">
+                        <div class="inner-card">
+                            <h3>24/7</h3>
+                            <i
+                                class="fa-solid fa-headset"
+                                aria-hidden="true"
+                            ></i>
+                            <span>پشتیبانی حرفه‌ای</span>
+                        </div>
+                        <p>در هر زمان پاسخگوی شما هستیم</p>
+                    </article>
+
+                    <article class="card stats-card">
+                        <div class="inner-card">
+                            <h3>98%</h3>
+                            <i
+                                class="fa-regular fa-face-smile"
+                                aria-hidden="true"
+                            ></i>
+                            <span>رضایت مشتری</span>
+                        </div>
+                        <p>مشتریان ما از همکاری با ما رضایت دارند</p>
+                    </article>
+
+                    <article class="card stats-card">
+                        <div class="inner-card">
+                            <h3>+120</h3>
+                            <i
+                                class="fa-solid fa-rocket"
+                                aria-hidden="true"
+                            ></i>
+                            <span>پروژه موفق</span>
+                        </div>
+                        <p>پروژه‌های متنوع در حوزه‌های مختلف دیجیتال</p>
+                    </article>
+                </div>
+            </section>
+
+            <!-- ===== SERVICES ===== -->
+            <section class="section services" id="services">
+                <div class="section-header">
+                    <span>خدمات ما</span>
+
+                    <h2>ایده‌ها را به <span>واقعیت</span> تبدیل می‌کنیم.</h2>
+
+                    <p>
+                        ما از ایده تا اجرا کنار شما هستیم تا بهترین تجربه
+                        دیجیتال را بسازیم.
+                    </p>
+                </div>
+
+                <div class="cards service-cards">
+                    <article class="card service-card">
+                        <div class="inner-card">
+                            <h3>01</h3>
+                            <i
+                                class="fa-solid fa-pen-nib"
+                                aria-hidden="true"
+                            ></i>
+                            <span>طراحی رابط کاربری</span>
+                        </div>
+                        <p>
+                            طراحی رابط کاربری‌های مدرن، زیبا و کاربرپسند که
+                            تجربه کاربری را لذت‌بخش می‌کند.
+                        </p>
+                    </article>
+
+                    <article class="card service-card">
+                        <div class="inner-card">
+                            <h3>02</h3>
+                            <i class="fa-solid fa-code" aria-hidden="true"></i>
+                            <span>توسعه وب</span>
+                        </div>
+                        <p>
+                            توسعه وب‌سایت‌های سریع، امن و مقیاس‌پذیر با جدیدترین
+                            تکنولوژی‌ها.
+                        </p>
+                    </article>
+
+                    <article class="card service-card">
+                        <div class="inner-card">
+                            <h3>03</h3>
+                            <i
+                                class="fa-solid fa-mobile-button"
+                                aria-hidden="true"
+                            ></i>
+                            <span>تجربه‌های تعاملی</span>
+                        </div>
+                        <p>
+                            خلق انیمیشن‌ها و تعاملات جذاب که برند شما را ماندگار
+                            می‌کند.
+                        </p>
+                    </article>
+
+                    <article class="card service-card">
+                        <div class="inner-card">
+                            <h3>04</h3>
+                            <i
+                                class="fa-solid fa-bullseye"
+                                aria-hidden="true"
+                            ></i>
+                            <span>استراتژی دیجیتال</span>
+                        </div>
+                        <p>
+                            تحلیل، برنامه‌ریزی و اجرای استراتژی‌های دیجیتال برای
+                            رشد کسب‌وکار شما.
+                        </p>
+                    </article>
+                </div>
+            </section>
+
+            <!-- ===== PROJECTS ===== -->
+            <section class="section projects" id="projects">
+                <div class="section-header">
+                    <span>پروژه‌های منتخب</span>
+                    <h2>چند نمونه از کارهای ما</h2>
+                    <p>هر پروژه، داستانی از خلاقیت و تلاش ماست.</p>
+                </div>
+                <div class="cards project-cards" id="projectCards">
+                    <article class="card project-card">
+                        <img src="./images/ProjectOne.webp" alt="Project" />
+                        <h2>
+                            <span>پورتفولیو شخصی</span
+                            ><i class="fa-solid fa-angle-left"></i>
+                        </h2>
+                    </article>
+                    <article class="card project-card">
+                        <img src="./images/ProjectTwo.webp" alt="Project" />
+                        <h2>
+                            <span>صفحه ورود ثبت نام</span
+                            ><i class="fa-solid fa-angle-left"></i>
+                        </h2>
+                    </article>
+                    <article class="card project-card">
+                        <img src="./images/ProjectThree.webp" alt="Project" />
+                        <h2>
+                            <span>لندینگ پیج</span
+                            ><i class="fa-solid fa-angle-left"></i>
+                        </h2>
+                    </article>
+                    <article class="card project-card">
+                        <img src="./images/ProjectOne.webp" alt="Project" />
+                        <h2>
+                            <span>پورتفولیو شخصی</span
+                            ><i class="fa-solid fa-angle-left"></i>
+                        </h2>
+                    </article>
+                    <article class="card project-card">
+                        <img src="./images/ProjectTwo.webp" alt="Project" />
+                        <h2>
+                            <span>صفحه ورود ثبت نام</span
+                            ><i class="fa-solid fa-angle-left"></i>
+                        </h2>
+                    </article>
+                </div>
+                <div class="slider-nav">
+                    <button
+                        class="slider-btn next"
+                        id="nextBtn"
+                        aria-label="next project"
+                    >
+                        ‹
+                    </button>
+                    <button
+                        class="slider-btn prev"
+                        id="prevBtn"
+                        aria-label="prev project"
+                    >
+                        ›
+                    </button>
+                </div>
+            </section>
+
+            <!-- ===== ABOUT ===== -->
+            <section class="section about" id="about">
+                <div class="section-header">
+                    <span>چرا ما؟</span>
+                    <h2>چیزی فراتر از انتظار</h2>
+                    <p>
+                        ما فقط یک تیم نیستیم، یک شریک قابل اعتماد برای موفقیت
+                        شما هستیم.
+                    </p>
+                </div>
+
+                <div class="cards about-cards">
+                    <article class="card about-card">
+                        <div class="inner-card">
+                            <h3>تیم متخصص</h3>
+                            <p>تیمی از متخصصان خلاق، باتجربه و عاشق کار خود.</p>
+                        </div>
+                        <i aria-hidden="true" class="fa-solid fa-users"></i>
+                    </article>
+
+                    <article class="card about-card">
+                        <div class="inner-card">
+                            <h3>پشتیبانی 24/7</h3>
+                            <p>
+                                ما همیشه در کنار شما هستیم، هر زمان که نیاز
+                                دارید.
+                            </p>
+                        </div>
+                        <i aria-hidden="true" class="fa-solid fa-headset"></i>
+                    </article>
+
+                    <article class="card about-card">
+                        <div class="inner-card">
+                            <h3>تحویل سریع</h3>
+                            <p>
+                                پروژه‌ها را در زمان مقرر و با کیفیت بالا تحویل
+                                می‌دهیم.
+                            </p>
+                        </div>
+                        <i aria-hidden="true" class="fa-solid fa-bolt"></i>
+                    </article>
+
+                    <article class="card about-card">
+                        <div class="inner-card">
+                            <h3>کیفیت تضمینی</h3>
+                            <p>
+                                بهترین کیفیت در طراحی و توسعه با استانداردهای
+                                روز دنیا.
+                            </p>
+                        </div>
+                        <i
+                            aria-hidden="true"
+                            class="fa-solid fa-shield-halved"
+                        ></i>
+                    </article>
+                </div>
+            </section>
+
+            <!-- ===== TESTIMONIALS ===== -->
+            <section class="section comments" id="comments">
+                <div class="section-header">
+                    <span>نظرات مشتریان</span>
+                    <h2>آنچه مشتریان ما می‌گویند</h2>
+                </div>
+
+                <div class="cards comment-cards">
+                    <article class="card comment-card">
+                        <div class="profile">
+                            <img src="./images/person-1.jpg" alt="Profile" />
+                            <h3>سارا احمدی</h3>
+                        </div>
+                        <div class="comment-content">
+                            <span>کارآفرین</span>
+                            <p>
+                                تیم بسیار متعهد و مسئولیت‌پذیر. حتماً برای
+                                روزهای بعدی هم با آنها همکاری می‌کنم.
+                            </p>
+                            <div class="comment-stars" aria-label="5 ستاره">
+                                <i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card comment-card">
+                        <div class="profile">
+                            <img src="./images/person-2.jpg" alt="Profile" />
+                            <h3>علی موسوی</h3>
+                        </div>
+                        <div class="comment-content">
+                            <span>مدیر محصول</span>
+                            <p>
+                                طراحی و توسعه اپلیکیشن ما با دقت و خلاقیت بالا
+                                انجام شد. واقعاً حرفه‌ای!
+                            </p>
+                            <div class="comment-stars" aria-label="4 ستاره">
+                                <i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card comment-card">
+                        <div class="profile">
+                            <img src="./images/person-3.jpg" alt="Profile" />
+                            <h3>محمد رضایی</h3>
+                        </div>
+                        <div class="comment-content">
+                            <span>مدیرعامل شرکت نوآوران</span>
+                            <p>
+                                همکاری با این تیم تجربه‌ای عالی بود. نتیجه فراتر
+                                از انتظار ما و پشتیبانی فوق‌العاده‌ای داشت.
+                            </p>
+                            <div class="comment-stars" aria-label="5 ستاره">
+                                <i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i
+                                ><i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- ===== CONTACT ===== -->
+            <section class="section contact" id="contact">
+                <div class="section-header">
+                    <span>تماس با ما</span>
+                    <h2>بیایید پروژه بعدی را با هم بسازیم</h2>
+                    <p>
+                        ایده شما، تخصص ما و نتیجه‌ای که کسب‌وکار شما را متحول
+                        می‌کند.
+                    </p>
+                </div>
+
+                <button class="start-btn" type="button">
+                    <span>شروع کنید</span>
+                    <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+                </button>
+
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i aria-hidden="true"></i>
+                        <h3>موقعیت</h3>
+                        <span>ایران، شیراز</span>
+                    </div>
+
+                    <div class="contact-item">
+                        <i aria-hidden="true"></i>
+                        <h3>تلگرام</h3>
+                        <a
+                            href="https://t.me/reza80_08"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="Telegram"
+                            >reza80_08</a
+                        >
+                    </div>
+
+                    <div class="contact-item">
+                        <i aria-hidden="true"></i>
+                        <h3>ایمیل</h3>
+                        <a href="mailto:rezan4162@gmail.com"
+                            >rezan4162@gmail.com</a
+                        >
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- ===== FOOTER ===== -->
+        <footer>
+            <div class="socials">
+                <a href="#" aria-label="GitHub"
+                    ><i aria-hidden="true" class="fa-brands fa-github"></i
+                ></a>
+                <a href="#" aria-label="LinkedIn"
+                    ><i aria-hidden="true" class="fa-brands fa-linkedin-in"></i
+                ></a>
+                <a href="#" aria-label="Telegram"
+                    ><i aria-hidden="true" class="fa-brands fa-telegram"></i
+                ></a>
+                <a href="#" aria-label="Instagram"
+                    ><i aria-hidden="true" class="fa-brands fa-instagram"></i
+                ></a>
+            </div>
+
+            <a href="#hero" class="go-up" aria-label="Go Up">
+                <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+            </a>
+
+            <div class="footer-wrapper">
+                <p dir="ltr">&copy; 2026 Reza. All rights reserved.</p>
+
+                <a class="logo" href="#hero" aria-label="صفحه اصلی">
+                    <h1>REZ<span>A</span></h1>
+                </a>
+            </div>
+        </footer>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
