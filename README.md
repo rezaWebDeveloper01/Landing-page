@@ -4,8 +4,6 @@
 
 ---
 
-## 🇬🇧 English
-
 A modern, responsive and interactive landing page built with **HTML, CSS, and JavaScript**, featuring a futuristic dark/neon-purple visual style.
 
 ### ✨ Features
